@@ -1,0 +1,159 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@import "css/grid.css";
+@import "css/meanmenu.css"
+@charset "UTF-8";
+/*
+Them Name: Acure Clinic Wordpress Theme
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header and footer set start */
+header, footer{
+	width: 100%
+}
+
+header{
+	height: 75px;
+	background: #1BACDB;
+}
+.logo{
+	width: 115px;
+	height: 75px;
+	background: url(imgs/logo.png) no-repeat left center;
+}
+nav ul{
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+	border-left: 1px solid rgb(31, 132, 224);
+}
+nav ul li:first-child{
+	border-left:none;
+}
+nav ul li a{
+	background: #3391E7;
+	text-transform: uppercase;
+	padding: 29px;
+	display: block;
+}
+footer{
+	margin-top: 20px;
+	background: #E0E7EB;
+}
+.copy{
+	font-size: 16px;
+	text-align: right;
+	padding: 15px 0;
+}
+.copy a{
+	color: #1BACDB;
+}
+.copy a:hover{
+	background: none;
+}
+/* header and footer se end */
+
+/* home links start */
+.links{
+	width: 100%;
+	background: #1BACDB;
+}
+.links_grid{
+	height: 144px;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 10px;
+	background-color: #fff
+}
+.links_imgs{
+	float: left;
+	margin-right: 15px;
+}
+.links img{
+	width: 114px;
+	height: 114px;
+}
+.links_art{
+	float: left;
+	height: 114px;
+}
+.links_art p{
+	color: #3391E7;
+}
+.links_more{
+	font-size: 16px;
+}
+.links_more a{
+	color: rgb(139, 139, 139);
+}
+.links_more a:hover{
+	color: #3391E7;
+	background: none;
+}
+/* home links end */
+
+/* home intro start */
+.intro_grid{
+	padding: 15px 10px;
+	border: 1px solid #edf3f3;
+	background: #fff;
+	margin-top: 15px;
+}
+.intro_grid img{
+	width: 100%;
+	height: auto;
+}
+.intro_grid p img{
+	width: 123px;
+	height: auto;
+}
+/* home intro end */
+
+/* service article start */
+article{
+	margin-top: 15px;
+}
+.service_content{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+}
+/* service article end */
+
+/* price start */
+.price_items{
+	padding: 20px;
+	border: 1px solid #edf3f3;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.price_items img{
+	margin: 10px 0;
+}
+.price_items p{
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+}
+/* price end */
+
+/* form set start */
+input,textarea{
+	outline: none;
+	padding: 10px;
+}
+label{
+	font-weight: normal;
+}
+.submit{
+	border: 0;
+	background: #396DB5;
+	padding: 5px 15px;
+	color: #fff;
+}
+/* form set end */
